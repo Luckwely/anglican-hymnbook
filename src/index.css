@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #f5f4f0;
+    color: #222;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.sheet {
+    background: white;
+    box-shadow: 0 4px 20px #00000012;
+}
+
+.solfa-text {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: white;
+    }
+
+    .sheet {
+        box-shadow: none;
+        border: none;
+    }
+}
