@@ -3,7 +3,7 @@ import type { Hymn } from '../types/hymn';
 
 export function SheetHeader({ hymn, leftText, className = 'mb-3 sm:mb-6' }: { hymn: Hymn; leftText: ReactNode; className?: string }) {
   return (
-    <div className={`text-center rounded-2xl bg-neu-base text-slate-800 shadow-neu-flat ${className}`}>
+    <div className={`text-center text-slate-800 ${className}`}>
       <h2 className="text-base font-bold leading-tight sm:text-2xl solfa-text text-slate-800">
         {hymn.hymnNumber}. {hymn.title}.
       </h2>

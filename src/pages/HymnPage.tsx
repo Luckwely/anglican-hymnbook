@@ -44,7 +44,7 @@ export function HymnPage() {
           <h1 className="truncate text-base font-bold sm:text-3xl">Karoly - {hymn.hymnNumber}</h1>
         </div>
         <FavoriteButton number={hymn.hymnNumber} />
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </header>
 
       {/* Controls: always one tidy row (wraps only on extremely narrow screens) */}

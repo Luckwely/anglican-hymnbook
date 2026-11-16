@@ -25,7 +25,7 @@ export function HomePage() {
           <h1 className="mt-0.5 text-xl font-bold sm:text-3xl">Karoly</h1>
           <p className="text-xs text-slate-600 sm:text-sm">{hymns.length} songs</p>
         </div>
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </header>
 
       <div className="mb-2 flex items-center gap-2 sm:mb-4">
