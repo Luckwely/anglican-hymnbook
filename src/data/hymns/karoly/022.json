@@ -1,0 +1,3456 @@
+{
+  "schemaVersion": "1.0.0-draft",
+  "id": "karoly-022",
+  "hymnNumber": 22,
+  "category": "Karoly",
+  "title": "Fony Kristy teraka.",
+  "attribution": "Polish Carol.",
+  "sourceNotation": "tonic-solfa",
+  "sourceKeyText": "MI♭ no DO",
+  "key": {
+    "do": "Eb",
+    "mode": "major",
+    "pitchClasses": {
+      "d": "Eb",
+      "r": "F",
+      "m": "G",
+      "f": "Ab",
+      "s": "Bb",
+      "l": "C",
+      "t": "D"
+    }
+  },
+  "meter": "4/4",
+  "tempoBpm": null,
+  "parts": [
+    "soprano",
+    "alto",
+    "tenor",
+    "bass"
+  ],
+  "measureCount": 28,
+  "measures": [
+    {
+      "number": 1,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "s:m",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:m"
+        },
+        "alto": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "d¹:l",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 75,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:l"
+        },
+        "alto": {
+          "raw": "f:f",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:f"
+        },
+        "tenor": {
+          "raw": "l:d¹",
+          "notes": [
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 60,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l:d¹"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "l:s",
+          "notes": [
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l:s"
+        },
+        "alto": {
+          "raw": "f:m",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:m"
+        },
+        "tenor": {
+          "raw": "d¹:d¹",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:d¹"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "alto": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        },
+        "tenor": {
+          "raw": "d¹:—",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:—"
+        },
+        "bass": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "m:m",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:m"
+        },
+        "alto": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "f:—r",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 68,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—r"
+        },
+        "alto": {
+          "raw": "l₁:—t₁",
+          "notes": [
+            {
+              "solfa": "l₁",
+              "degree": "l",
+              "octaveMark": "₁",
+              "pitchClass": "C",
+              "semitonesFromDo": -3,
+              "midi": 48,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l₁:—t₁"
+        },
+        "tenor": {
+          "raw": "f:—f",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—f"
+        },
+        "bass": {
+          "raw": "f₁:—s₁",
+          "notes": [
+            {
+              "solfa": "f₁",
+              "degree": "f",
+              "octaveMark": "₁",
+              "pitchClass": "Ab",
+              "semitonesFromDo": -7,
+              "midi": 32,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f₁:—s₁"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "r:d",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 63,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:d"
+        },
+        "alto": {
+          "raw": "t₁:s₁",
+          "notes": [
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 46,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t₁:s₁"
+        },
+        "tenor": {
+          "raw": "f:m",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:m"
+        },
+        "bass": {
+          "raw": "s₁:d",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:d"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "system": 1,
+      "voices": {
+        "soprano": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        },
+        "alto": {
+          "raw": "s₁:—",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 46,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:—"
+        },
+        "tenor": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        },
+        "bass": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "r:r",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:r"
+        },
+        "alto": {
+          "raw": "t₁:t₁",
+          "notes": [
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t₁:t₁"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "s₁:s₁",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:s₁"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "f:r",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 68,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:r"
+        },
+        "alto": {
+          "raw": "t₁:t₁",
+          "notes": [
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t₁:t₁"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "s₁:s₁",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:s₁"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "m:m",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:m"
+        },
+        "alto": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "s:—m",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—m"
+        },
+        "alto": {
+          "raw": "d:—d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—d"
+        },
+        "tenor": {
+          "raw": "m:—s",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—s"
+        },
+        "bass": {
+          "raw": "d:—d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—d"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "r:r",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:r"
+        },
+        "alto": {
+          "raw": "t₁:t₁",
+          "notes": [
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t₁:t₁"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "s₁:s₁",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:s₁"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "f:r",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 68,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:r"
+        },
+        "alto": {
+          "raw": "t₁:t₁",
+          "notes": [
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t₁:t₁"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "s₁:s₁",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:s₁"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "m:m",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:m"
+        },
+        "alto": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "d:d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:d"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "system": 2,
+      "voices": {
+        "soprano": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "alto": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        },
+        "tenor": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        },
+        "bass": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "s:—s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—s"
+        },
+        "alto": {
+          "raw": "d:—d",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—d"
+        },
+        "tenor": {
+          "raw": "s:—s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—s"
+        },
+        "bass": {
+          "raw": "m:—m",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 43,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 43,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—m"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "alto": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        },
+        "tenor": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "bass": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 43,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "l:—l",
+          "notes": [
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l:—l"
+        },
+        "alto": {
+          "raw": "f:—f",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—f"
+        },
+        "tenor": {
+          "raw": "d¹:—d¹",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:—d¹"
+        },
+        "bass": {
+          "raw": "f:—f",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 44,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 44,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—f"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "l:—",
+          "notes": [
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l:—"
+        },
+        "alto": {
+          "raw": "f:—",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—"
+        },
+        "tenor": {
+          "raw": "d¹:—",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:—"
+        },
+        "bass": {
+          "raw": "f:—",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 44,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—"
+        }
+      }
+    },
+    {
+      "number": 21,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "t:—t",
+          "notes": [
+            {
+              "solfa": "t",
+              "degree": "t",
+              "octaveMark": null,
+              "pitchClass": "D",
+              "semitonesFromDo": 11,
+              "midi": 74,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t",
+              "degree": "t",
+              "octaveMark": null,
+              "pitchClass": "D",
+              "semitonesFromDo": 11,
+              "midi": 74,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t:—t"
+        },
+        "alto": {
+          "raw": "f:—f",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—f"
+        },
+        "tenor": {
+          "raw": "s:—s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—s"
+        },
+        "bass": {
+          "raw": "r:—r",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 41,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 41,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:—r"
+        }
+      }
+    },
+    {
+      "number": 22,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "t:—",
+          "notes": [
+            {
+              "solfa": "t",
+              "degree": "t",
+              "octaveMark": null,
+              "pitchClass": "D",
+              "semitonesFromDo": 11,
+              "midi": 74,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "t:—"
+        },
+        "alto": {
+          "raw": "f:—",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—"
+        },
+        "tenor": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "bass": {
+          "raw": "r:—",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 41,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:—"
+        }
+      }
+    },
+    {
+      "number": 23,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "d¹:s",
+          "notes": [
+            {
+              "solfa": "d¹",
+              "degree": "d",
+              "octaveMark": "¹",
+              "pitchClass": "Eb",
+              "semitonesFromDo": 12,
+              "midi": 75,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 70,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d¹:s"
+        },
+        "alto": {
+          "raw": "m:d",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:d"
+        },
+        "tenor": {
+          "raw": "s:s",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:s"
+        },
+        "bass": {
+          "raw": "m:m",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 43,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 43,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:m"
+        }
+      }
+    },
+    {
+      "number": 24,
+      "system": 3,
+      "voices": {
+        "soprano": {
+          "raw": "l:f",
+          "notes": [
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 72,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 68,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "l:f"
+        },
+        "alto": {
+          "raw": "d:r",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 53,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:r"
+        },
+        "tenor": {
+          "raw": "f:l",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "l",
+              "degree": "l",
+              "octaveMark": null,
+              "pitchClass": "C",
+              "semitonesFromDo": 9,
+              "midi": 60,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:l"
+        },
+        "bass": {
+          "raw": "f:r",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 44,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 41,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:r"
+        }
+      }
+    },
+    {
+      "number": 25,
+      "system": 4,
+      "voices": {
+        "soprano": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 67,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        },
+        "alto": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        },
+        "tenor": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 58,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        },
+        "bass": {
+          "raw": "s:—",
+          "notes": [
+            {
+              "solfa": "s",
+              "degree": "s",
+              "octaveMark": null,
+              "pitchClass": "Bb",
+              "semitonesFromDo": 7,
+              "midi": 46,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s:—"
+        }
+      }
+    },
+    {
+      "number": 26,
+      "system": 4,
+      "voices": {
+        "soprano": {
+          "raw": "r:—",
+          "notes": [
+            {
+              "solfa": "r",
+              "degree": "r",
+              "octaveMark": null,
+              "pitchClass": "F",
+              "semitonesFromDo": 2,
+              "midi": 65,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "r:—"
+        },
+        "alto": {
+          "raw": "d:t₁",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 51,
+              "startBeat": 0.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            },
+            {
+              "solfa": "t₁",
+              "degree": "t",
+              "octaveMark": "₁",
+              "pitchClass": "D",
+              "semitonesFromDo": -1,
+              "midi": 50,
+              "startBeat": 2.0,
+              "durationBeats": 2.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:t₁"
+        },
+        "tenor": {
+          "raw": "f:—",
+          "notes": [
+            {
+              "solfa": "f",
+              "degree": "f",
+              "octaveMark": null,
+              "pitchClass": "Ab",
+              "semitonesFromDo": 5,
+              "midi": 56,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "f:—"
+        },
+        "bass": {
+          "raw": "s₁:—",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 34,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:—"
+        }
+      }
+    },
+    {
+      "number": 27,
+      "system": 4,
+      "voices": {
+        "soprano": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 63,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        },
+        "alto": {
+          "raw": "s₁:—",
+          "notes": [
+            {
+              "solfa": "s₁",
+              "degree": "s",
+              "octaveMark": "₁",
+              "pitchClass": "Bb",
+              "semitonesFromDo": -5,
+              "midi": 46,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "s₁:—"
+        },
+        "tenor": {
+          "raw": "m:—",
+          "notes": [
+            {
+              "solfa": "m",
+              "degree": "m",
+              "octaveMark": null,
+              "pitchClass": "G",
+              "semitonesFromDo": 4,
+              "midi": 55,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "m:—"
+        },
+        "bass": {
+          "raw": "d:—",
+          "notes": [
+            {
+              "solfa": "d",
+              "degree": "d",
+              "octaveMark": null,
+              "pitchClass": "Eb",
+              "semitonesFromDo": 0,
+              "midi": 39,
+              "startBeat": 0.0,
+              "durationBeats": 4.0,
+              "timingVerified": false,
+              "pitchVerified": false,
+              "midiRegisterVerified": false
+            }
+          ],
+          "rhythmVerified": false,
+          "displayRaw": "d:—"
+        }
+      }
+    },
+    {
+      "number": 28,
+      "system": 4,
+      "voices": {
+        "soprano": {
+          "raw": "—:—",
+          "notes": [],
+          "rhythmVerified": false,
+          "displayRaw": "—:—"
+        },
+        "alto": {
+          "raw": "—:—",
+          "notes": [],
+          "rhythmVerified": false,
+          "displayRaw": "—:—"
+        },
+        "tenor": {
+          "raw": "—:—",
+          "notes": [],
+          "rhythmVerified": false,
+          "displayRaw": "—:—"
+        },
+        "bass": {
+          "raw": "—:—",
+          "notes": [],
+          "rhythmVerified": false,
+          "displayRaw": "—:—"
+        }
+      }
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Fony Kristy teraka",
+        "Hanasoa antsika,",
+        "Aizim-ben’ ny alina",
+        "Tonga hazavana,",
+        "Ka nihoby fatratra",
+        "Ireo anjely masina:",
+        "Gloria, Gloria, Gloria,",
+        "In excelsis Gloria!"
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Feno hafaliana",
+        "Mponina ao an-danitra,",
+        "Aoka hovaliana",
+        "Hira mahafinaritra.",
+        "Teraka ny Tompo soa",
+        "Hanavotra olombelona:",
+        "Gloria, Gloria, Gloria,",
+        "In excelsis Gloria!"
+      ]
+    }
+  ],
+  "notationConventions": {
+    "raw": "Provisional transcription of tonic sol-fa symbols. D.C. marking is present in source; playback repeat navigation not implemented.",
+    "midiReady": true,
+    "playbackInterpretation": "Approximate note timing; original rhythmic markings not fully captured."
+  },
+  "verification": {
+    "status": "provisional-manual-scan-transcription",
+    "issues": [
+      {
+        "location": "all measures",
+        "type": "rhythm",
+        "description": "Duration and rhythmic underlining not fully decoded; even note distribution is a placeholder."
+      },
+      {
+        "location": "all measures",
+        "type": "pitch",
+        "description": "Verify individual notes and register against scan."
+      },
+      {
+        "location": "ending",
+        "type": "navigation",
+        "description": "Printed D.C. repeat instruction is not encoded as playback navigation."
+      }
+    ]
+  },
+  "dataContract": {
+    "sourceOfTruth": "measures[].voices[voice].notes with raw source notation preserved",
+    "renderers": [
+      "tonic-solfa-svg",
+      "five-line-staff",
+      "SATB-synth",
+      "MIDI-export"
+    ],
+    "timeUnit": "quarter-note beats",
+    "performanceStatus": "PROVISIONAL — not a verified score"
+  },
+  "playback": {
+    "defaultTempoBpm": 90,
+    "verified": false,
+    "tempoIsEditorialAssumption": true
+  },
+  "layout": {
+    "systemBreakAfterMeasures": [
+      8,
+      16,
+      24
+    ],
+    "voiceOrder": [
+      "soprano",
+      "alto",
+      "tenor",
+      "bass"
+    ],
+    "displayOriginalRhythm": true,
+    "lyricsAlignmentVerified": false
+  },
+  "lyrics": {
+    "verses": [
+      {
+        "number": 1,
+        "lines": [
+          "Fony Kristy teraka",
+          "Hanasoa antsika,",
+          "Aizim-ben’ ny alina",
+          "Tonga hazavana,",
+          "Ka nihoby fatratra",
+          "Ireo anjely masina:",
+          "Gloria, Gloria, Gloria,",
+          "In excelsis Gloria!"
+        ]
+      },
+      {
+        "number": 2,
+        "lines": [
+          "Feno hafaliana",
+          "Mponina ao an-danitra,",
+          "Aoka hovaliana",
+          "Hira mahafinaritra.",
+          "Teraka ny Tompo soa",
+          "Hanavotra olombelona:",
+          "Gloria, Gloria, Gloria,",
+          "In excelsis Gloria!"
+        ]
+      }
+    ]
+  },
+  "transcriptionStatus": {
+    "source": "uploaded image of hymn 22",
+    "pitchVerified": false,
+    "rhythmVerified": false,
+    "meterInferred": true,
+    "notes": "Approximate SATB transcription for testing; review against scan before production use."
+  }
+}
