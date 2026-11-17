@@ -1,5 +1,6 @@
 import * as Tone from 'tone';
 import { getEvents } from './music';
+import { quarterSeconds } from './timing';
 import type { Hymn, Part } from '../types/hymn';
 
 class PlaybackEngine {
@@ -31,7 +32,7 @@ class PlaybackEngine {
     });
 
     this.active = true;
-    const msPerBeat = 60000 / bpm;
+    const msPerBeat = quarterSeconds(bpm, hymn) * 1000;
     const last = Math.max(...events.map(n => n.startBeat + n.durationBeats));
 
     for (const n of events) {
@@ -39,7 +40,7 @@ class PlaybackEngine {
         if (!this.active) return;
         this.synths[n.part]?.triggerAttackRelease(
           Tone.Frequency(n.midi, 'midi').toFrequency(),
-          (n.durationBeats * 60 / bpm) * 0.94,
+          (n.durationBeats * msPerBeat / 1000) * 0.94,
         );
       }, n.startBeat * msPerBeat));
     }

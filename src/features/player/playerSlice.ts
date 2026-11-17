@@ -48,8 +48,14 @@ export default playerSlice.reducer;
 /* ---- thunks: side effects live here, components stay dumb ---- */
 export const startPlayback = (hymn: Hymn): AppThunk => async (dispatch, getState) => {
   const { bpm, enabledParts } = getState().player;
-  const started = await playbackEngine.start(hymn, bpm, enabledParts, () => dispatch(playbackStopped()));
-  if (started) dispatch(playbackStarted());
+  try {
+    const started = await playbackEngine.start(hymn, bpm, enabledParts, () => dispatch(playbackStopped()));
+    if (started) dispatch(playbackStarted());
+    else dispatch(playbackStopped());
+  } catch (error) {
+    console.error('Could not start audio playback:', error);
+    dispatch(playbackStopped());
+  }
 };
 
 export const stopPlayback = (): AppThunk => dispatch => {

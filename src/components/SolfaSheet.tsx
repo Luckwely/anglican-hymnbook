@@ -1,8 +1,8 @@
-import { useMemo, useRef, type CSSProperties, type ReactNode } from 'react';
+import { useMemo, useRef, type ReactNode } from 'react';
 import type { Hymn, HymnMeasure, HymnVoice } from '../types/hymn';
-import { PARTS } from '../types/hymn';
+import { PARTS, type Part } from '../types/hymn';
 import { useElementWidth } from '../hooks/useElementWidth';
-import { BP_LANDSCAPE, BP_PORTRAIT, balance, measuresPerLine } from '../lib/layout';
+import { BP_LANDSCAPE, BP_PORTRAIT, balance } from '../lib/layout';
 import { SheetHeader } from './SheetHeader';
 import { Verses } from './Verses';
 
@@ -10,35 +10,53 @@ const MIN_MEASURE_WIDTH = 150; // desktop only
 const AVG_CHAR_EM = 0.56;      // average glyph width used to size the text to the measure
 const MEASURE_PAD_EM = 0.36;   // left+right padding of a measure (see .sf-measure)
 
-/** Phone portrait: 4 measures per row. Phone landscape / small tablet: 6. Desktop: as many as fit. */
-function layoutFor(width: number, total: number) {
-  if (width < BP_PORTRAIT) return { perLine: balance(total, 4), brace: 12 };
-  if (width < BP_LANDSCAPE) return { perLine: balance(total, 6), brace: 16 };
-  return { perLine: measuresPerLine(width - 22, MIN_MEASURE_WIDTH, total), brace: 22 };
+/** A colon is a rhythmic cell separator, not proof that this is 2/2 time. */
+function cells(voice?: HymnVoice): string[] {
+  return (voice?.displayRaw ?? voice?.raw ?? '').split(':');
 }
 
-/** Longest half-measure (in characters) so the font can shrink until every cell fits. */
-function longestHalf(hymn: Hymn): number {
-  let max = 4;
-  for (const m of hymn.measures) {
-    for (const part of PARTS) {
-      const v = m.voices[part];
-      const [a = '', b = ''] = (v.displayRaw || v.raw || '').split(':');
-      max = Math.max(max, a.trim().length, b.trim().length + 1);
-    }
-  }
-  return max;
+function hymnParts(hymn: Hymn): Part[] {
+  const explicit = hymn.parts?.filter(part => PARTS.includes(part));
+  return explicit?.length ? explicit : PARTS.filter(part => hymn.measures.some(m => !!m.voices[part]));
+}
+
+function cellCount(measure: HymnMeasure, parts: Part[]): number {
+  return Math.max(1, ...parts.map(part => cells(measure.voices[part]).length));
+}
+
+/** Fit measure count to available width and the number of printed sol-fa cells. */
+function layoutFor(width: number, measures: HymnMeasure[], parts: Part[]) {
+  const available = width || 390;
+  const maxCells = Math.max(1, ...measures.map(m => cellCount(m, parts)));
+  const brace = available < BP_PORTRAIT ? 12 : available < BP_LANDSCAPE ? 16 : 22;
+  const preferredWidth = available < BP_PORTRAIT
+    ? (maxCells >= 3 ? 125 : 96)
+    : available < BP_LANDSCAPE ? (maxCells >= 3 ? 145 : 120) : MIN_MEASURE_WIDTH;
+  const cap = available < BP_PORTRAIT ? 4 : available < BP_LANDSCAPE ? 6 : 8;
+  const fit = Math.max(1, Math.min(cap, Math.floor((available - brace) / preferredWidth)));
+  return { perLine: balance(measures.length, fit), brace };
+}
+
+/** Width estimate accounts for every colon-separated cell and every voice. */
+function widestMeasureChars(hymn: Hymn, parts: Part[]): number {
+  return Math.max(4, ...hymn.measures.map(m => {
+    const count = cellCount(m, parts);
+    return parts.reduce((max, part) => {
+      const row = cells(m.voices[part]);
+      return Math.max(max, count * Math.max(2, ...row.map(c => c.trim().length + 1)));
+    }, 0);
+  }));
 }
 
 function Syllable({ token }: { token: string }) {
   if (token === '—' || token === '-') return <span>—</span>;
-  const m = token.match(/^([drmfslt][aeio]?)(['₁₂]*)$/i);
+  const m = token.match(/^([drmfslt](?:i|a)?)(['¹₂₁]*)$/i);
   if (!m) return <span>{token}</span>;
   const [, base, marks] = m;
   return (
     <span className="sf-note">
       {base}
-      {marks.includes("'") && <sup className="sf-oct">1</sup>}
+      {(marks.includes("'") || marks.includes("¹")) && <sup className="sf-oct">1</sup>}
       {marks.includes('₁') && <sub className="sf-oct">1</sub>}
       {marks.includes('₂') && <sub className="sf-oct">2</sub>}
     </span>
@@ -55,26 +73,29 @@ function Pulse({ text, underlined }: { text: string; underlined?: boolean }) {
   return <span className={underlined ? 'sf-underline' : undefined}>{content}</span>;
 }
 
-function VoiceCells({ voice, row }: { voice: HymnVoice; row: number }) {
-  const [first = '', second = ''] = (voice.displayRaw || voice.raw || '').split(':');
+function VoiceCells({ voice, row, count }: { voice?: HymnVoice; row: number; count: number }) {
+  const rawCells = cells(voice);
   const under = voice.underlineBeats ?? [];
-  const style = (col: number): CSSProperties => ({ gridRow: row, gridColumn: col });
-  return (
-    <>
-      <div className="sf-cell" style={style(1)}><Pulse text={first} underlined={under.includes(0)} /></div>
-      <div className="sf-cell" style={style(2)}>
-        <span className="sf-colon">:</span>
-        <Pulse text={second} underlined={under.includes(1)} />
+  return <>
+    {Array.from({ length: count }, (_, col) => (
+      <div className="sf-cell" key={col} style={{ gridRow: row, gridColumn: col + 1 }}>
+        {col > 0 && <span className="sf-colon">:</span>}
+        <Pulse text={rawCells[col] ?? ''} underlined={under.includes(col)} />
       </div>
-    </>
-  );
+    ))}
+  </>;
 }
 
-function Measure({ measure, isLastInLine }: { measure: HymnMeasure; isLastInLine: boolean }) {
+function Measure({ measure, parts, isLastInLine }: { measure: HymnMeasure; parts: Part[]; isLastInLine: boolean }) {
+  const count = cellCount(measure, parts);
   return (
-    <div className={`sf-measure ${isLastInLine ? 'sf-measure-last' : ''}`} title={`Measure ${measure.number}`}>
-      {PARTS.map((part, i) => (
-        <VoiceCells key={part} voice={measure.voices[part]} row={i + 1} />
+    <div
+      className={`sf-measure ${isLastInLine ? 'sf-measure-last' : ''}`}
+      style={{ gridTemplateColumns: `repeat(${count}, minmax(0, 1fr))`, gridTemplateRows: `repeat(${parts.length}, auto)` }}
+      title={`Measure ${measure.number} — ${count} written cells`}
+    >
+      {parts.map((part, i) => (
+        <VoiceCells key={part} voice={measure.voices[part]} row={i + 1} count={count} />
       ))}
     </div>
   );
@@ -115,21 +136,28 @@ export function SolfaSheet({ hymn }: { hymn: Hymn }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const width = useElementWidth(containerRef);
 
-  const { perLine, brace: BRACE_WIDTH } = layoutFor(width, hymn.measures.length);
-  const halfChars = useMemo(() => longestHalf(hymn), [hymn]);
-  const measureWidth = (width - BRACE_WIDTH) / perLine;
-  const fit = measureWidth / (2 * halfChars * AVG_CHAR_EM + MEASURE_PAD_EM);
+  const parts = useMemo(() => hymnParts(hymn), [hymn]);
+  const { perLine, brace: BRACE_WIDTH } = layoutFor(width, hymn.measures, parts);
+  const measureChars = useMemo(() => widestMeasureChars(hymn, parts), [hymn, parts]);
+  const measureWidth = (Math.max(width, 320) - BRACE_WIDTH) / perLine;
+  const fit = measureWidth / (measureChars * AVG_CHAR_EM + MEASURE_PAD_EM);
   const fontSize = Math.round(Math.max(9, Math.min(18, fit)) * 10) / 10;
+  const changedMeters = new Set<number>();
+  let precedingMeter = hymn.meter ?? '4/4';
+  hymn.measures.forEach((measure, index) => {
+    if (measure.meter && measure.meter !== precedingMeter) changedMeters.add(index);
+    precedingMeter = measure.meter ?? precedingMeter;
+  });
   const lines: HymnMeasure[][] = [];
   for (let i = 0; i < hymn.measures.length; i += perLine) lines.push(hymn.measures.slice(i, i + perLine));
 
   return (
     <section className="sheet !border-0 !bg-neu-base !text-slate-800 !shadow-neu-flat !rounded-2xl p-1.5 sm:p-7">
-      <SheetHeader hymn={hymn} leftText={`${hymn.sourceKeyText}.`} />
+      <SheetHeader hymn={hymn} leftText={`${hymn.sourceKeyText} · ${hymn.meter ?? "Meter not specified"}`} />
 
       <div ref={containerRef} className="solfa-sheet w-full" style={{ fontSize }}>
         {lines.map((line, li) => {
-          const hasMarkers = line.some(m => m.segno || m.dalSegno);
+          const hasMarkers = line.some((m, i) => m.segno || m.dalSegno || changedMeters.has(li * perLine + i));
           const noteRow = hasMarkers ? 2 : 1;
           return (
             <div
@@ -140,6 +168,7 @@ export function SolfaSheet({ hymn }: { hymn: Hymn }) {
               {hasMarkers && line.map((m, i) => (
                 <div key={`mk-${m.number}`} className="sf-marker" style={{ gridRow: 1, gridColumn: i + 2 }}>
                   {m.segno && <Segno />}
+                  {changedMeters.has(li * perLine + i) && <span className="sf-ds">{m.meter}</span>}
                   {m.dalSegno && <span className="sf-ds">D. S.</span>}
                 </div>
               ))}
@@ -149,7 +178,7 @@ export function SolfaSheet({ hymn }: { hymn: Hymn }) {
               {line.map((m, i) => (
                 <div key={m.number} style={{ gridRow: noteRow, gridColumn: i + 2, display: 'flex' }}>
                   <div style={{ flex: 1, minWidth: 0 }}>
-                    <Measure measure={m} isLastInLine={i === line.length - 1} />
+                    <Measure measure={m} parts={parts} isLastInLine={i === line.length - 1} />
                   </div>
                 </div>
               ))}

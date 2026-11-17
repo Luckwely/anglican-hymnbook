@@ -29,7 +29,7 @@ export function MusicPlayer({ hymn }: { hymn: Hymn }) {
       </button>
 
       <div className="flex shrink-0 items-center gap-1" role="group" aria-label="Voices to play">
-        {PARTS.map(part => (
+        {PARTS.filter(part => !hymn.parts?.length || hymn.parts.includes(part)).map(part => (
           <button
             key={part}
             type="button"

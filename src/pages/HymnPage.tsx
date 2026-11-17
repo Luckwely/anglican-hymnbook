@@ -33,23 +33,19 @@ export function HymnPage() {
 
   return (
     <main className="app-main max-w-6xl min-h-dvh bg-neu-base text-slate-800">
-      {/* Top bar: back · title · favourite · theme */}
       <header className="no-print mb-1.5 flex items-center gap-1.5 sm:mb-4 sm:gap-2">
         <Link to={routes.home} className={`${btnSecondary} btn-icon !rounded-xl !border-0 !bg-neu-base !text-slate-700 !shadow-neu-btn active:!shadow-neu-pressed transition-all duration-150 sm:w-auto`} aria-label="Back to list" title="Back to list">
           <ArrowLeft size={16} />
-          <span className="hidden sm:inline sm:px-2">Back</span>
         </Link>
         <div className="min-w-0 flex-1 leading-tight">
-          <p className="hidden text-[10px] font-semibold uppercase tracking-widest text-indigo-700 sm:block">Anglican Hymnbook</p>
-          <h1 className="truncate text-base font-bold sm:text-3xl">Karoly - {hymn.hymnNumber}</h1>
+          <h1 className="truncate text-base font-bold sm:text-4xl">KAROLY - {hymn.hymnNumber}</h1>
         </div>
         <FavoriteButton number={hymn.hymnNumber} />
         {/* <ThemeToggle /> */}
       </header>
 
-      {/* Controls: always one tidy row (wraps only on extremely narrow screens) */}
       <div className="no-print mb-1.5 flex flex-wrap items-center gap-1 sm:mb-4 sm:gap-2">
-        <div className="seg !rounded-xl !border-0 !bg-neu-base !shadow-neu-pressed-sm [&_button]:rounded-xl [&_button]:border-0 [&_button]:bg-neu-base [&_button]:text-slate-700 [&_button]:transition-all [&_button]:duration-150 [&_button]:aria-pressed:shadow-neu-pressed [&_button]:active:shadow-neu-pressed" role="group" aria-label="Notation">
+        <div className="seg !rounded-xl !border-0 !bg-neu-base !shadow-neu-btn [&_button]:border-0 [&_button]:bg-neu-base [&_button]:text-slate-700 [&_button]:transition-all [&_button]:duration-150 [&_button]:aria-pressed:shadow-neu-pressed  [&_button]:active:shadow-neu-pressed" role="group" aria-label="Notation">
           {VIEWS.map(v => (
             <button key={v.id} type="button" aria-pressed={view === v.id} onClick={() => dispatch(viewChanged(v.id))}>
               {v.label}

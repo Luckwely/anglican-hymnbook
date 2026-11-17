@@ -44,8 +44,8 @@
       "pickupBeats": 1,
       "voices": {
         "soprano": {
-          "raw": ":s.m",
-          "displayRaw": ":s.m",
+          "raw": "  :  :s.m",
+          "displayRaw": "  :  :s.m",
           "notes": [
             {
               "solfa": "s",
@@ -77,8 +77,8 @@
           "rhythmVerified": true
         },
         "alto": {
-          "raw": ":d.d",
-          "displayRaw": ":d.d",
+          "raw": "  :  :d.d",
+          "displayRaw": "  :  :d.d",
           "notes": [
             {
               "solfa": "d",
@@ -110,8 +110,8 @@
           "rhythmVerified": true
         },
         "tenor": {
-          "raw": ":m.s",
-          "displayRaw": ":m.s",
+          "raw": "  :  :m.s",
+          "displayRaw": "  :  :m.s",
           "notes": [
             {
               "solfa": "m",
@@ -143,8 +143,8 @@
           "rhythmVerified": true
         },
         "bass": {
-          "raw": ":d.d",
-          "displayRaw": ":d.d",
+          "raw": "  :  :d.d",
+          "displayRaw": "  :  :d.d",
           "notes": [
             {
               "solfa": "d",

@@ -19,7 +19,7 @@ export function HomePage() {
   const favoritesOnly = useAppSelector(selectFavoritesOnly);
 
   return (
-    <main className="app-main max-w-3xl min-h-dvh bg-neu-base text-slate-800">
+    <main className="app-main max-w-6xl min-h-dvh bg-neu-base text-slate-800">
       <header className="mb-3 flex items-center sm:mb-6">
         <img src={logo} alt="E.E.M logo" className="h-13 w-12 shrink-0 object-contain sm:h-16 sm:w-16" />
         <div className="min-w-0 flex-1">
@@ -81,7 +81,7 @@ export function HomePage() {
                   to={routes.hymn(h.hymnNumber)}
                   className="flex min-w-0 flex-1 items-center gap-3 rounded-xl px-3 py-2.5 text-slate-800 outline-none transition-all duration-150 hover:shadow-neu-pressed-sm focus-visible:shadow-neu-pressed-sm sm:gap-4 sm:px-4 sm:py-3"
                 >
-                  <span className="w-4 shrink-0 text-right font-semibold tabular-nums text-indigo-700 sm:w-12">{h.hymnNumber}</span>
+                  <span className="w-4 shrink-0 text-right font-semibold tabular-nums text-indigo-700 sm:w-4">{h.hymnNumber}</span>
                   <span className="min-w-0">{h.title}</span>
                 </Link>
                 <button

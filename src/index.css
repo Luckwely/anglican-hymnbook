@@ -4,7 +4,7 @@
 
 /* ---------- Theme tokens ---------- */
 :root {
-    --bg: #f5f4f0;
+    --bg: #e0e5ec; /* Same neumorphic surface as both pages, including the outer margins */
     --surface: #ffffff;
     --ink: #111111;
     --text: #222222;
@@ -20,7 +20,7 @@
 }
 
 :root.dark {
-    --bg: #0f1115;
+    --bg: #1a1d24;
     --surface: #1a1d24;
     --ink: #f1f1f1;
     --text: #e6e6e6;
@@ -33,6 +33,10 @@
     --hover: #232738;
     --shadow: 0 2px 12px #00000066;
     --fav: #fb7185;
+}
+
+html, #root {
+    background: var(--bg);
 }
 
 html {
@@ -227,7 +231,8 @@ body {
 
 .sf-measure {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* Individual measure grid columns are supplied by SolfaSheet from the JSON. */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(4, auto);
     padding: 0 0.18em;
     border-left: 1.5px solid var(--ink);
