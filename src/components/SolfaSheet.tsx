@@ -6,13 +6,29 @@ import { BP_LANDSCAPE, BP_PORTRAIT, balance } from '../lib/layout';
 import { SheetHeader } from './SheetHeader';
 import { Verses } from './Verses';
 
+type SolfaCell = {
+  text: string;
+  separator: ':' | '|' | null;
+}
+
 const MIN_MEASURE_WIDTH = 150; // desktop only
 const AVG_CHAR_EM = 0.56;      // average glyph width used to size the text to the measure
 const MEASURE_PAD_EM = 0.36;   // left+right padding of a measure (see .sf-measure)
 
 /** A colon is a rhythmic cell separator, not proof that this is 2/2 time. */
-function cells(voice?: HymnVoice): string[] {
-  return (voice?.displayRaw ?? voice?.raw ?? '').split(':');
+function cells(voice?: HymnVoice): SolfaCell[] {
+  const raw = voice?.displayRaw ?? voice?.raw ?? '';
+  const chunks = raw.split(/([:|])/);
+  const parsed: SolfaCell[] = [
+    {text: chunks[0] ?? '', separator:null},
+  ];
+  for (let i = 1; i < chunks.length; i += 2){
+    parsed.push({
+      separator: chunks[i] as ':' | '|',
+      text: chunks[i+1] ?? '',
+    });
+  }
+  return parsed;
 }
 
 function hymnParts(hymn: Hymn): Part[] {
@@ -39,15 +55,25 @@ function layoutFor(width: number, measures: HymnMeasure[], parts: Part[]) {
 
 /** Width estimate accounts for every colon-separated cell and every voice. */
 function widestMeasureChars(hymn: Hymn, parts: Part[]): number {
-  return Math.max(4, ...hymn.measures.map(m => {
-    const count = cellCount(m, parts);
-    return parts.reduce((max, part) => {
-      const row = cells(m.voices[part]);
-      return Math.max(max, count * Math.max(2, ...row.map(c => c.trim().length + 1)));
-    }, 0);
-  }));
-}
+  return Math.max(
+    4,
+    ...hymn.measures.map(measure => {
+      const count = cellCount(measure, parts);
 
+      return parts.reduce((max, part) => {
+        const row = cells(measure.voices[part]);
+
+        return Math.max(
+          max,
+          count * Math.max(
+            2,
+            ...row.map(cell => cell.text.trim().length + 1)
+          )
+        );
+      }, 0);
+    })
+  );
+}
 function Syllable({ token }: { token: string }) {
   if (token === '—' || token === '-') return <span>—</span>;
   const m = token.match(/^([drmfslt](?:i|a)?)(['¹₂₁]*)$/i);
@@ -73,17 +99,42 @@ function Pulse({ text, underlined }: { text: string; underlined?: boolean }) {
   return <span className={underlined ? 'sf-underline' : undefined}>{content}</span>;
 }
 
-function VoiceCells({ voice, row, count }: { voice?: HymnVoice; row: number; count: number }) {
+function VoiceCells({
+  voice,
+  row,
+  count,
+}: {
+  voice?: HymnVoice;
+  row: number;
+  count: number;
+}) {
   const rawCells = cells(voice);
-  const under = voice.underlineBeats ?? [];
-  return <>
-    {Array.from({ length: count }, (_, col) => (
-      <div className="sf-cell" key={col} style={{ gridRow: row, gridColumn: col + 1 }}>
-        {col > 0 && <span className="sf-colon">:</span>}
-        <Pulse text={rawCells[col] ?? ''} underlined={under.includes(col)} />
-      </div>
-    ))}
-  </>;
+  const under = voice?.underlineBeats ?? [];
+
+  return (
+    <>
+      {Array.from({ length: count }, (_, col) => (
+        <div
+          className="sf-cell"
+          key={col}
+          style={{
+            gridRow: row,
+            gridColumn: col + 1,
+          }}
+        >
+          {col > 0 && (
+            <span className="sf-colon">
+              {rawCells[col]?.separator ?? ':'}
+            </span>
+          )}
+          <Pulse
+            text={rawCells[col]?.text ?? ''}
+            underlined={under.includes(col)}
+          />
+        </div>
+      ))}
+    </>
+  );
 }
 
 function Measure({ measure, parts, isLastInLine }: { measure: HymnMeasure; parts: Part[]; isLastInLine: boolean }) {
