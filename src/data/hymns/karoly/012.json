@@ -34,7 +34,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "s₁",
+          "raw": " :  : s₁",
+          "displayRaw": " :  : s₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -50,11 +51,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁"
+          "rhythmVerified": false
         },
         "alto": {
-          "raw": "m₁",
+          "raw": " :  : m₁",
+          "displayRaw": " :  : m₁",
           "notes": [
             {
               "solfa": "m₁",
@@ -70,11 +71,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m₁"
+          "rhythmVerified": false
         },
         "bass": {
-          "raw": "d₁",
+          "raw": " :  : d₁",
+          "displayRaw": " :  : d₁",
           "notes": [
             {
               "solfa": "d₁",
@@ -90,8 +91,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -100,7 +100,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "m :f₁ :s₁",
+          "raw": "m₁ :f₁ :s₁",
+          "displayRaw": "m₁ :f₁ :s₁",
           "notes": [
             {
               "solfa": "m",
@@ -142,11 +143,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m :f₁ :s₁"
+          "rhythmVerified": false
         },
         "alto": {
-          "raw": "d :r₁ :s₁",
+          "raw": "d₁ :r₁ :m₁",
+          "displayRaw": "d₁ :r₁ :m₁",
           "notes": [
             {
               "solfa": "d",
@@ -188,11 +189,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :r₁ :s₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "d₁ :— :—",
+          "displayRaw": "d₁ :— :—",
           "notes": [
             {
               "solfa": "d₁",
@@ -208,8 +209,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :— :—"
+          "rhythmVerified": false
         }
       }
     },
@@ -219,6 +219,7 @@
       "voices": {
         "soprano": {
           "raw": "l₁ :t₁ :d",
+          "displayRaw": "l₁ :t₁ :d",
           "notes": [
             {
               "solfa": "l₁",
@@ -260,11 +261,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :t₁ :d"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "f₁ :s₁ :l₁",
+          "displayRaw": "f₁ :s₁ :l₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -306,11 +307,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :s₁ :l₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "f₁ :— :f₁",
+          "displayRaw": "f₁ :— :f₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -339,8 +340,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :— :f₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -350,6 +350,7 @@
       "voices": {
         "soprano": {
           "raw": "d :— :—",
+          "displayRaw": "d :— :—",
           "notes": [
             {
               "solfa": "d",
@@ -365,11 +366,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :— :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "s₁ :f₁ :m₁",
+          "displayRaw": "s₁ :f₁ :m₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -411,11 +412,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :f₁ :m₁"
+          "rhythmVerified": false
         },
         "bass": {
-          "raw": "m :r₁ :d₁",
+          "raw": "m₁ :r₁ :d₁",
+          "displayRaw": "m₁ :r₁ :d₁",
           "notes": [
             {
               "solfa": "m",
@@ -457,8 +458,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m :r₁ :d₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -468,6 +468,7 @@
       "voices": {
         "soprano": {
           "raw": "d :— :—",
+          "displayRaw": "d :— :—",
           "notes": [
             {
               "solfa": "d",
@@ -483,11 +484,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :— :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "l₁ :s₁ :f₁",
+          "displayRaw": "l₁ :s₁ :f₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -529,11 +530,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :s₁ :f₁"
+          "rhythmVerified": false
         },
         "bass": {
-          "raw": "f₁ :m :l₁",
+          "raw": "f₁ :m₁ :l₁",
+          "displayRaw": "f₁ :m₁ :l₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -575,8 +576,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :m :l₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -586,6 +586,7 @@
       "voices": {
         "soprano": {
           "raw": "d :m₁ :f₁",
+          "displayRaw": "d :m₁ :f₁",
           "notes": [
             {
               "solfa": "d",
@@ -627,11 +628,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :m₁ :f₁"
+          "rhythmVerified": false
         },
         "alto": {
-          "raw": "m :d₁ :r₁",
+          "raw": "m₁ :d₁ :r₁",
+          "displayRaw": "m₁ :d₁ :r₁",
           "notes": [
             {
               "solfa": "m",
@@ -673,11 +674,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m :d₁ :r₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "s₁ :— :s₁",
+          "displayRaw": "s₁ :— :s₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -706,8 +707,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :— :s₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -717,6 +717,7 @@
       "voices": {
         "soprano": {
           "raw": "s₁ :— :f₁",
+          "displayRaw": "s₁ :— :f₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -745,11 +746,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :— :f₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "t₁ :d₁ :r₁",
+          "displayRaw": "t₁ :d₁ :r₁",
           "notes": [
             {
               "solfa": "t₁",
@@ -791,11 +792,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "t₁ :d₁ :r₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "s₁ :l₁ :t₁",
+          "displayRaw": "s₁ :l₁ :t₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -837,8 +838,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :l₁ :t₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -848,6 +848,7 @@
       "voices": {
         "soprano": {
           "raw": "l₁ :—",
+          "displayRaw": "l₁ :—",
           "notes": [
             {
               "solfa": "l₁",
@@ -863,11 +864,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "r₁ :— :—",
+          "displayRaw": "r₁ :— :—",
           "notes": [
             {
               "solfa": "r₁",
@@ -883,11 +884,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r₁ :— :—"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "d₁ :— :—",
+          "displayRaw": "d₁ :— :—",
           "notes": [
             {
               "solfa": "d₁",
@@ -903,8 +904,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :— :—"
+          "rhythmVerified": false
         }
       }
     },
@@ -914,6 +914,7 @@
       "voices": {
         "soprano": {
           "raw": "m₁ :— :s₁",
+          "displayRaw": "m₁ :— :s₁",
           "notes": [
             {
               "solfa": "m₁",
@@ -942,11 +943,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m₁ :— :s₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "d₁ :— :m₁",
+          "displayRaw": "d₁ :— :m₁",
           "notes": [
             {
               "solfa": "d₁",
@@ -975,11 +976,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :— :m₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "d₁ :— :d₁",
+          "displayRaw": "d₁ :— :d₁",
           "notes": [
             {
               "solfa": "d₁",
@@ -1008,8 +1009,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :— :d₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1019,6 +1019,7 @@
       "voices": {
         "soprano": {
           "raw": "m :m :r",
+          "displayRaw": "m :m :r",
           "notes": [
             {
               "solfa": "m",
@@ -1060,11 +1061,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m :m :r"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "d :d :t₁",
+          "displayRaw": "d :d :t₁",
           "notes": [
             {
               "solfa": "d",
@@ -1106,11 +1107,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :d :t₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "l₁ :— :—",
+          "displayRaw": "l₁ :— :—",
           "notes": [
             {
               "solfa": "l₁",
@@ -1126,8 +1127,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :— :—"
+          "rhythmVerified": false
         }
       }
     },
@@ -1137,6 +1137,7 @@
       "voices": {
         "soprano": {
           "raw": "d :t₁ :l₁",
+          "displayRaw": "d :t₁ :l₁",
           "notes": [
             {
               "solfa": "d",
@@ -1178,11 +1179,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :t₁ :l₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "l₁ :s₁ :s₁",
+          "displayRaw": "l₁ :s₁ :s₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -1224,11 +1225,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :s₁ :s₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "l₁ :— :l₁",
+          "displayRaw": "l₁ :— :l₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -1257,8 +1258,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :— :l₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1268,6 +1268,7 @@
       "voices": {
         "soprano": {
           "raw": "r :— :—",
+          "displayRaw": "r :— :—",
           "notes": [
             {
               "solfa": "r",
@@ -1283,11 +1284,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r :— :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "f₁ :— :s₁",
+          "displayRaw": "f₁ :— :s₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -1316,11 +1317,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :— :s₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "r₁ :r₁ :m₁",
+          "displayRaw": "r₁ :r₁ :m₁",
           "notes": [
             {
               "solfa": "r₁",
@@ -1362,8 +1363,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r₁ :r₁ :m₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1373,6 +1373,7 @@
       "voices": {
         "soprano": {
           "raw": "r :— :l₁",
+          "displayRaw": "r :— :l₁",
           "notes": [
             {
               "solfa": "r",
@@ -1401,11 +1402,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r :— :l₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "l₁ :s₁ :f₁",
+          "displayRaw": "l₁ :s₁ :f₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -1447,11 +1448,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :s₁ :f₁"
+          "rhythmVerified": false
         },
         "bass": {
-          "raw": "f₁ :m₁ :r₁",
+          "raw": "fi₁ :m₁ :r₁",
+          "displayRaw": "fi₁ :m₁ :r₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -1493,8 +1494,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :m₁ :r₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1504,6 +1504,7 @@
       "voices": {
         "soprano": {
           "raw": "r₁ :r :d",
+          "displayRaw": "r₁ :r :d",
           "notes": [
             {
               "solfa": "r₁",
@@ -1545,11 +1546,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r₁ :r :d"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "t₁ :t₁ :l₁",
+          "displayRaw": "t₁ :t₁ :l₁",
           "notes": [
             {
               "solfa": "t₁",
@@ -1591,11 +1592,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "t₁ :t₁ :l₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "s₁ :— :—",
+          "displayRaw": "s₁ :— :—",
           "notes": [
             {
               "solfa": "s₁",
@@ -1611,8 +1612,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :— :—"
+          "rhythmVerified": false
         }
       }
     },
@@ -1622,6 +1622,7 @@
       "voices": {
         "soprano": {
           "raw": "t₁ :l₁ :s₁",
+          "displayRaw": "t₁ :l₁ :s₁",
           "notes": [
             {
               "solfa": "t₁",
@@ -1663,11 +1664,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "t₁ :l₁ :s₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "s₁ :f₁ :f₁",
+          "displayRaw": "s₁ :f₁ :f₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -1709,11 +1710,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :f₁ :f₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "s₁ :— :s₁",
+          "displayRaw": "s₁ :— :s₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -1742,8 +1743,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :— :s₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1753,6 +1753,7 @@
       "voices": {
         "soprano": {
           "raw": "d :— :—",
+          "displayRaw": "d :— :—",
           "notes": [
             {
               "solfa": "d",
@@ -1768,11 +1769,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :— :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "m₁ :— :f₁",
+          "displayRaw": "m₁ :— :f₁",
           "notes": [
             {
               "solfa": "m₁",
@@ -1801,11 +1802,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m₁ :— :f₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "d₁ :d₁ :r₁",
+          "displayRaw": "d₁ :d₁ :r₁",
           "notes": [
             {
               "solfa": "d₁",
@@ -1847,8 +1848,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :d₁ :r₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1858,6 +1858,7 @@
       "voices": {
         "soprano": {
           "raw": "d :— :—",
+          "displayRaw": "d :— :—",
           "notes": [
             {
               "solfa": "d",
@@ -1873,11 +1874,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :— :—"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "s₁ :f₁ :m₁",
+          "displayRaw": "s₁ :f₁ :m₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -1919,11 +1920,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :f₁ :m₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "m₁ :r₁ :d₁",
+          "displayRaw": "m₁ :r₁ :d₁",
           "notes": [
             {
               "solfa": "m₁",
@@ -1965,8 +1966,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m₁ :r₁ :d₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -1976,6 +1976,7 @@
       "voices": {
         "soprano": {
           "raw": "d :t₁ :l₁",
+          "displayRaw": "d :t₁ :l₁",
           "notes": [
             {
               "solfa": "d",
@@ -2017,11 +2018,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d :t₁ :l₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "l₁ :s₁ :f₁",
+          "displayRaw": "l₁ :s₁ :f₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -2063,11 +2064,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :s₁ :f₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "f₁ :— :f₁",
+          "displayRaw": "f₁ :— :f₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -2096,8 +2097,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :— :f₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -2107,6 +2107,7 @@
       "voices": {
         "soprano": {
           "raw": "l₁ :s₁ :f₁",
+          "displayRaw": "l₁ :s₁ :f₁",
           "notes": [
             {
               "solfa": "l₁",
@@ -2148,11 +2149,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "l₁ :s₁ :f₁"
+          "rhythmVerified": false
         },
         "alto": {
-          "raw": "f₁ :m₁",
+          "raw": "f₁ :m₁ :m₁",
+          "displayRaw": "f₁ :m₁ :m₁",
           "notes": [
             {
               "solfa": "f₁",
@@ -2181,11 +2182,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "f₁ :m₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "r₁ :— :r₁",
+          "displayRaw": "r₁ :— :r₁",
           "notes": [
             {
               "solfa": "r₁",
@@ -2214,8 +2215,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "r₁ :— :r₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -2225,6 +2225,7 @@
       "voices": {
         "soprano": {
           "raw": "m₁ :— :r₁",
+          "displayRaw": "m₁ :— :r₁",
           "notes": [
             {
               "solfa": "m₁",
@@ -2253,11 +2254,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "m₁ :— :r₁"
+          "rhythmVerified": false
         },
         "alto": {
           "raw": "d₁ :— :t₁",
+          "displayRaw": "d₁ :— :t₁",
           "notes": [
             {
               "solfa": "d₁",
@@ -2286,11 +2287,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :— :t₁"
+          "rhythmVerified": false
         },
         "bass": {
           "raw": "s₁ :— :s₁",
+          "displayRaw": "s₁ :— :s₁",
           "notes": [
             {
               "solfa": "s₁",
@@ -2319,8 +2320,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "s₁ :— :s₁"
+          "rhythmVerified": false
         }
       }
     },
@@ -2329,7 +2329,8 @@
       "system": 4,
       "voices": {
         "soprano": {
-          "raw": "d₁ :—",
+          "raw": "d₁ :— :- ",
+          "displayRaw": "d₁ :— :- ",
           "notes": [
             {
               "solfa": "d₁",
@@ -2345,11 +2346,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :—"
+          "rhythmVerified": false
         },
         "alto": {
-          "raw": "d₁ :—",
+          "raw": "d₁ :—:- ",
+          "displayRaw": "d₁ :—:- ",
           "notes": [
             {
               "solfa": "d₁",
@@ -2365,11 +2366,11 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :—"
+          "rhythmVerified": false
         },
         "bass": {
-          "raw": "d₁ :—",
+          "raw": "d₁ :—:- ",
+          "displayRaw": "d₁ :—:- ",
           "notes": [
             {
               "solfa": "d₁",
@@ -2385,8 +2386,7 @@
               "midiRegisterVerified": false
             }
           ],
-          "rhythmVerified": false,
-          "displayRaw": "d₁ :—"
+          "rhythmVerified": false
         }
       }
     }
