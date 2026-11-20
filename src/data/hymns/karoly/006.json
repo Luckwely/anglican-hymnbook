@@ -261,7 +261,7 @@
       "voices": {
         "soprano": {
           "raw": "r: -.m|d :r",
-          "displayRaw": "r: -.d|d :r",
+          "displayRaw": "r: -.m|d :r",
           "notes": [
             {
               "solfa": "s",

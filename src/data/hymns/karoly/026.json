@@ -821,8 +821,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "s : — | — : —",
-          "displayRaw": "s : — | — : —",
+          "raw": "s : — | — : s",
+          "displayRaw": "s : — | — : s",
           "notes": [
             {
               "solfa": "s",
@@ -840,8 +840,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "t₁ : — | d : —",
-          "displayRaw": "t₁ : — | d : —",
+          "raw": "t₁ : — | d : r",
+          "displayRaw": "t₁ : — | d : r",
           "notes": [
             {
               "solfa": "t₁",
@@ -871,8 +871,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "f : — | m : —",
-          "displayRaw": "f : — | m : —",
+          "raw": "f : — | m : s",
+          "displayRaw": "f : — | m : s",
           "notes": [
             {
               "solfa": "f",
@@ -902,8 +902,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "d : — | — : —",
-          "displayRaw": "d : — | — : —",
+          "raw": "d : — | — : t,",
+          "displayRaw": "d : — | — : t,",
           "notes": [
             {
               "solfa": "d",
@@ -924,90 +924,6 @@
     },
     {
       "number": 6,
-      "system": 2,
-      "voices": {
-        "soprano": {
-          "raw": "  :  |  : s",
-          "displayRaw": "  :  |  : s",
-          "notes": [
-            {
-              "solfa": "s",
-              "degree": "s",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 69,
-              "startBeat": 17.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "alto": {
-          "raw": "  :  |  : r",
-          "displayRaw": "  :  |  : r",
-          "notes": [
-            {
-              "solfa": "r",
-              "degree": "r",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 52,
-              "startBeat": 17.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "tenor": {
-          "raw": "  :  |  : s",
-          "displayRaw": "  :  |  : s",
-          "notes": [
-            {
-              "solfa": "s",
-              "degree": "s",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 57,
-              "startBeat": 17.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "bass": {
-          "raw": "  :  |  : s₁",
-          "displayRaw": "  :  |  : s₁",
-          "notes": [
-            {
-              "solfa": "s₁",
-              "degree": "s",
-              "octaveMark": "₁",
-              "pitchClass": null,
-              "midi": 33,
-              "startBeat": 17.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        }
-      },
-      "pickup": true,
-      "pickupBeats": 1
-    },
-    {
-      "number": 7,
       "system": 2,
       "voices": {
         "soprano": {
@@ -1245,7 +1161,7 @@
       }
     },
     {
-      "number": 8,
+      "number": 7,
       "system": 2,
       "voices": {
         "soprano": {
@@ -1483,7 +1399,7 @@
       }
     },
     {
-      "number": 9,
+      "number": 8,
       "system": 2,
       "voices": {
         "soprano": {
@@ -1706,12 +1622,12 @@
       }
     },
     {
-      "number": 10,
+      "number": 9,
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "r : — | — : —",
-          "displayRaw": "r : — | — : —",
+          "raw": "r : — | — : r",
+          "displayRaw": "r : — | — : r",
           "notes": [
             {
               "solfa": "r",
@@ -1729,8 +1645,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "t₁ : — | — : —",
-          "displayRaw": "t₁ : — | — : —",
+          "raw": "t₁ : — | — : r",
+          "displayRaw": "t₁ : — | — : r",
           "notes": [
             {
               "solfa": "t₁",
@@ -1748,14 +1664,14 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "— : — | — : —",
-          "displayRaw": "— : — | — : —",
+          "raw": "s : — | — : s",
+          "displayRaw": "s : — | — : s",
           "notes": [],
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s₁ : — | — : —",
-          "displayRaw": "s₁ : — | — : —",
+          "raw": "s₁ : — | — : s",
+          "displayRaw": "s₁ : — | — : s",
           "notes": [
             {
               "solfa": "s₁",
@@ -1775,91 +1691,7 @@
       }
     },
     {
-      "number": 11,
-      "system": 3,
-      "voices": {
-        "soprano": {
-          "raw": "  :  |  : r",
-          "displayRaw": "  :  |  : r",
-          "notes": [
-            {
-              "solfa": "r",
-              "degree": "r",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 64,
-              "startBeat": 34.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "alto": {
-          "raw": "  :  |  : r",
-          "displayRaw": "  :  |  : r",
-          "notes": [
-            {
-              "solfa": "r",
-              "degree": "r",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 52,
-              "startBeat": 34.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "tenor": {
-          "raw": "  :  |  : t",
-          "displayRaw": "  :  |  : t",
-          "notes": [
-            {
-              "solfa": "t",
-              "degree": "t",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 61,
-              "startBeat": 34.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        },
-        "bass": {
-          "raw": "  :  |  : s",
-          "displayRaw": "  :  |  : s",
-          "notes": [
-            {
-              "solfa": "s",
-              "degree": "s",
-              "octaveMark": null,
-              "pitchClass": null,
-              "midi": 45,
-              "startBeat": 34.0,
-              "durationBeats": 1.0,
-              "timingVerified": false,
-              "pitchVerified": false,
-              "midiRegisterVerified": false
-            }
-          ],
-          "rhythmVerified": false
-        }
-      },
-      "pickup": true,
-      "pickupBeats": 1
-    },
-    {
-      "number": 12,
+      "number": 10,
       "system": 3,
       "voices": {
         "soprano": {
@@ -2097,7 +1929,7 @@
       }
     },
     {
-      "number": 13,
+      "number": 11,
       "system": 3,
       "voices": {
         "soprano": {
@@ -2335,7 +2167,7 @@
       }
     },
     {
-      "number": 14,
+      "number": 12,
       "system": 3,
       "voices": {
         "soprano": {
@@ -2570,7 +2402,7 @@
       }
     },
     {
-      "number": 15,
+      "number": 13,
       "system": 3,
       "voices": {
         "soprano": {
@@ -2700,7 +2532,7 @@
       }
     },
     {
-      "number": 16,
+      "number": 14,
       "system": 4,
       "voices": {
         "soprano": {
@@ -2938,7 +2770,7 @@
       }
     },
     {
-      "number": 17,
+      "number": 15,
       "system": 4,
       "voices": {
         "soprano": {
@@ -3164,7 +2996,7 @@
       }
     },
     {
-      "number": 18,
+      "number": 16,
       "system": 4,
       "voices": {
         "soprano": {
@@ -3393,7 +3225,7 @@
       }
     },
     {
-      "number": 19,
+      "number": 17,
       "system": 4,
       "voices": {
         "soprano": {

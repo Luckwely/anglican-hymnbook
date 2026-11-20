@@ -427,8 +427,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "s : s | d¹ : —",
-          "displayRaw": "s : s | d¹ : —",
+          "raw": "s : s | d¹ : s",
+          "displayRaw": "s : s | d¹ : s",
           "notes": [
             {
               "solfa": "s",
@@ -470,8 +470,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "m : r | d : —",
-          "displayRaw": "m : r | d : —",
+          "raw": "m : r | d : m",
+          "displayRaw": "m : r | d : m",
           "notes": [
             {
               "solfa": "m",
@@ -513,8 +513,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "d¹ : t | s : —",
-          "displayRaw": "d¹ : t | s : —",
+          "raw": "d¹ : t | s : d¹",
+          "displayRaw": "d¹ : t | s : d¹",
           "notes": [
             {
               "solfa": "d¹",
@@ -556,8 +556,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s : f | m : —",
-          "displayRaw": "s : f | m : —",
+          "raw": "s : f | m : d",
+          "displayRaw": "s : f | m : d",
           "notes": [
             {
               "solfa": "s",
@@ -605,8 +605,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "s : — | l.s : l.t",
-          "displayRaw": "s : — | l.s : l.t",
+          "raw": "l.s : l.t|d¹ : r¹ ",
+          "displayRaw": "l.s : l.t|d¹ : r¹ ",
           "notes": [
             {
               "solfa": "s",
@@ -676,8 +676,8 @@
           ]
         },
         "alto": {
-          "raw": "m : — | f.s : f",
-          "displayRaw": "m : — | f.s : f",
+          "raw": "f.s : f|s :f",
+          "displayRaw": "f.s : f|s :f",
           "notes": [
             {
               "solfa": "m",
@@ -734,8 +734,8 @@
           ]
         },
         "tenor": {
-          "raw": "d¹ : — | d¹ : d¹.s",
-          "displayRaw": "d¹ : — | d¹ : d¹.s",
+          "raw": "d¹ : d¹.s|d¹ : l",
+          "displayRaw": "d¹ : d¹.s|d¹ : l",
           "notes": [
             {
               "solfa": "d¹",
@@ -792,8 +792,8 @@
           ]
         },
         "bass": {
-          "raw": "d : — | f.m : f.r",
-          "displayRaw": "d : — | f.m : f.r",
+          "raw": "f.m : f.r|m :f",
+          "displayRaw": "f.m : f.r|m :f",
           "notes": [
             {
               "solfa": "d",
@@ -869,8 +869,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "d¹ : r¹ | d¹ : —",
-          "displayRaw": "d¹ : r¹ | d¹ : —",
+          "raw": "d¹ : — | t:d¹.t",
+          "displayRaw": "d¹ : — | t:d¹.t",
           "notes": [
             {
               "solfa": "d¹",
@@ -912,8 +912,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : f | m : —",
-          "displayRaw": "s : f | m : —",
+          "raw": " m : —| r: d",
+          "displayRaw": " m : —| r: d",
           "notes": [
             {
               "solfa": "s",
@@ -955,8 +955,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "d¹ : l | s : —",
-          "displayRaw": "d¹ : l | s : —",
+          "raw": " s : — |s : s",
+          "displayRaw": " s : — |s : s",
           "notes": [
             {
               "solfa": "d¹",
@@ -998,8 +998,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "m : f | s : —",
-          "displayRaw": "m : f | s : —",
+          "raw": " s : — |s : m",
+          "displayRaw": " s : — |s : m",
           "notes": [
             {
               "solfa": "m",
@@ -1047,8 +1047,8 @@
       "system": 1,
       "voices": {
         "soprano": {
-          "raw": "t : — | d¹ : t",
-          "displayRaw": "t : — | d¹ : t",
+          "raw": "l :s | f : l",
+          "displayRaw": "l :s | f : l",
           "notes": [
             {
               "solfa": "t",
@@ -1090,8 +1090,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "r : — | d : —",
-          "displayRaw": "r : — | d : —",
+          "raw": "d : di | r : f",
+          "displayRaw": "d : di | r : f",
           "notes": [
             {
               "solfa": "r",
@@ -1121,8 +1121,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "l : l | l : l",
+          "displayRaw": "l : l | l : l",
           "notes": [
             {
               "solfa": "s",
@@ -1152,8 +1152,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "f : m | r: d",
+          "displayRaw": "f : m | r: d",
           "notes": [
             {
               "solfa": "s",
@@ -1189,8 +1189,8 @@
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "l : s | f : l",
-          "displayRaw": "l : s | f : l",
+          "raw": "r' : -.s |s : d'",
+          "displayRaw": "r' : -.s |s : d'",
           "notes": [
             {
               "solfa": "l",
@@ -1244,8 +1244,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "d : di | r : f",
-          "displayRaw": "d : di | r : f",
+          "raw": "f : -.f | m : m",
+          "displayRaw": "f : -.f | m : m",
           "notes": [
             {
               "solfa": "d",
@@ -1299,8 +1299,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "l : l | l : l",
-          "displayRaw": "l : l | l : l",
+          "raw": "s : -.s| s : fi",
+          "displayRaw": "s : -.s| s : fi",
           "notes": [
             {
               "solfa": "l",
@@ -1354,8 +1354,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "f : m | r : d",
-          "displayRaw": "f : m | r : d",
+          "raw": "t, : -.t, |d : l,",
+          "displayRaw": "t, : -.t, |d : l,",
           "notes": [
             {
               "solfa": "f",
@@ -1415,8 +1415,8 @@
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "r¹ : —.s | s : —",
-          "displayRaw": "r¹ : —.s | s : —",
+          "raw": "t : -.l |s : l",
+          "displayRaw": "t : -.l |s : l",
           "notes": [
             {
               "solfa": "r¹",
@@ -1461,8 +1461,8 @@
           ]
         },
         "alto": {
-          "raw": "f : —.f | m : —",
-          "displayRaw": "f : —.f | m : —",
+          "raw": "ri : -.ri | m : fi",
+          "displayRaw": "ri : -.ri | m : fi",
           "notes": [
             {
               "solfa": "f",
@@ -1507,8 +1507,8 @@
           ]
         },
         "tenor": {
-          "raw": "s : —.s | s : —",
-          "displayRaw": "s : —.s | s : —",
+          "raw": "fi : -.t | t  : d'",
+          "displayRaw": "fi : -.t | t  : d'",
           "notes": [
             {
               "solfa": "s",
@@ -1553,8 +1553,8 @@
           ]
         },
         "bass": {
-          "raw": "t₁ : —.t₁ | d : —",
-          "displayRaw": "t₁ : —.t₁ | d : —",
+          "raw": "t₁ : —.t₁ | m : r",
+          "displayRaw": "t₁ : —.t₁ | m : r",
           "notes": [
             {
               "solfa": "t₁",
@@ -1605,8 +1605,8 @@
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "d¹ : — | t : —.l",
-          "displayRaw": "d¹ : — | t : —.l",
+          "raw": "l : - | s :  ",
+          "displayRaw": "l : - | s :  ",
           "notes": [
             {
               "solfa": "d¹",
@@ -1651,8 +1651,8 @@
           ]
         },
         "alto": {
-          "raw": "m : — | ri : —.ri",
-          "displayRaw": "m : — | ri : —.ri",
+          "raw": "fi : - | s :  ",
+          "displayRaw": "fi : - | s :  ",
           "notes": [
             {
               "solfa": "m",
@@ -1697,8 +1697,8 @@
           ]
         },
         "tenor": {
-          "raw": "fi : — | fi : —.t",
-          "displayRaw": "fi : — | fi : —.t",
+          "raw": "d' : - | t :  ",
+          "displayRaw": "d' : - | t :  ",
           "notes": [
             {
               "solfa": "fi",
@@ -1743,8 +1743,8 @@
           ]
         },
         "bass": {
-          "raw": "l₁ : — | t₁ : —.t₁",
-          "displayRaw": "l₁ : — | t₁ : —.t₁",
+          "raw": "r : - | s :   ",
+          "displayRaw": "r : - | s :   ",
           "notes": [
             {
               "solfa": "l₁",
@@ -1795,8 +1795,8 @@
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "s : l | l : —",
-          "displayRaw": "s : l | l : —",
+          "raw": "t : - | r' : t",
+          "displayRaw": "t : - | r' : t",
           "notes": [
             {
               "solfa": "s",
@@ -1838,8 +1838,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "m : fi | fi : —",
-          "displayRaw": "m : fi | fi : —",
+          "raw": "s : - | s : s ",
+          "displayRaw": "s : - | s : s ",
           "notes": [
             {
               "solfa": "m",
@@ -1881,8 +1881,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "t : d¹ | d¹ : —",
-          "displayRaw": "t : d¹ | d¹ : —",
+          "raw": "r' : - | t : r'",
+          "displayRaw": "r' : - | t : r'",
           "notes": [
             {
               "solfa": "t",
@@ -1924,8 +1924,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "m : r | r : —",
-          "displayRaw": "m : r | r : —",
+          "raw": "  :  |  :  ",
+          "displayRaw": "  :  |  :  ",
           "notes": [
             {
               "solfa": "m",
@@ -1973,8 +1973,8 @@
       "system": 2,
       "voices": {
         "soprano": {
-          "raw": "s : — | t : —",
-          "displayRaw": "s : — | t : —",
+          "raw": "d' : - | - :   ",
+          "displayRaw": "d' : - | - :   ",
           "notes": [
             {
               "solfa": "s",
@@ -2004,8 +2004,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - :  ",
+          "displayRaw": "s : — | - :  ",
           "notes": [
             {
               "solfa": "s",
@@ -2035,8 +2035,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "t : — | f : —",
-          "displayRaw": "t : — | f : —",
+          "raw": "d' : - | - :  ",
+          "displayRaw": "d' : - | - :  ",
           "notes": [
             {
               "solfa": "t",
@@ -2066,8 +2066,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s : — | r¹ : —",
-          "displayRaw": "s : — | r¹ : —",
+          "raw": "d : —.t,| d.r : m.f ",
+          "displayRaw": "d : —.t,| d.r : m.f ",
           "notes": [
             {
               "solfa": "s",
@@ -2103,8 +2103,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "r¹ : t | d¹ : —",
-          "displayRaw": "r¹ : t | d¹ : —",
+          "raw": "t : - | r¹ : t",
+          "displayRaw": "t : - | r¹ : t",
           "notes": [
             {
               "solfa": "r¹",
@@ -2146,8 +2146,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : s | s : —",
-          "displayRaw": "s : s | s : —",
+          "raw": "s : - | s : s",
+          "displayRaw": "s : - | s : s",
           "notes": [
             {
               "solfa": "s",
@@ -2189,8 +2189,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "f : f | m : —",
-          "displayRaw": "f : f | m : —",
+          "raw": "r' : — | t : r'",
+          "displayRaw": "r' : — | t : r'",
           "notes": [
             {
               "solfa": "f",
@@ -2232,8 +2232,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "t : r¹ | d¹ : —",
-          "displayRaw": "t : r¹ | d¹ : —",
+          "raw": "s : - | - :  ",
+          "displayRaw": "s : - | - :  ",
           "notes": [
             {
               "solfa": "t",
@@ -2281,8 +2281,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "t : — | r¹ : t",
-          "displayRaw": "t : — | r¹ : t",
+          "raw": "d¹ : - | - : ",
+          "displayRaw": "d¹ : - | - : ",
           "notes": [
             {
               "solfa": "t",
@@ -2324,8 +2324,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | s : s",
-          "displayRaw": "s : — | s : s",
+          "raw": "s : — | - :  ",
+          "displayRaw": "s : — | - : ",
           "notes": [
             {
               "solfa": "s",
@@ -2367,8 +2367,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "f : — | f : f",
-          "displayRaw": "f : — | f : f",
+          "raw": "d¹ : — | -  :  ",
+          "displayRaw": "d¹ : — | -  :  ",
           "notes": [
             {
               "solfa": "f",
@@ -2410,8 +2410,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "r¹ : — | t : r¹",
-          "displayRaw": "r¹ : — | t : r¹",
+          "raw": "d : —.t, | d.r  : m.d ",
+          "displayRaw": "d : —.t, | d.r  : m.d ",
           "notes": [
             {
               "solfa": "r¹",
@@ -2459,8 +2459,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "d¹ : — | l : l",
-          "displayRaw": "d¹ : — | l : l",
+          "raw": "l : l | d¹ : l",
+          "displayRaw": "l : l | d¹ : l",
           "notes": [
             {
               "solfa": "d¹",
@@ -2502,8 +2502,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | f : f",
-          "displayRaw": "s : — | f : f",
+          "raw": "f : f | f : f",
+          "displayRaw": "f : f | f : f",
           "notes": [
             {
               "solfa": "s",
@@ -2545,8 +2545,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "m : — | d¹ : d¹",
-          "displayRaw": "m : — | d¹ : d¹",
+          "raw": "d¹ : d¹ | d¹ : d¹",
+          "displayRaw": "d¹ : d¹ | d¹ : d¹",
           "notes": [
             {
               "solfa": "m",
@@ -2588,8 +2588,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "d¹ : — | f : f",
-          "displayRaw": "d¹ : — | f : f",
+          "raw": " f : f | l : l ",
+          "displayRaw": " f : f | l : l ",
           "notes": [
             {
               "solfa": "d¹",
@@ -2637,8 +2637,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "d¹ : l | l : —.s",
-          "displayRaw": "d¹ : l | l : —.s",
+          "raw": "l : -.s | s : s",
+          "displayRaw": "l : -.s | s : s",
           "notes": [
             {
               "solfa": "d¹",
@@ -2695,8 +2695,8 @@
           ]
         },
         "alto": {
-          "raw": "f : f | f : —.f",
-          "displayRaw": "f : f | f : —.f",
+          "raw": "f : -.f| m : s ",
+          "displayRaw": "f : -.f| m : s ",
           "notes": [
             {
               "solfa": "f",
@@ -2753,8 +2753,8 @@
           ]
         },
         "tenor": {
-          "raw": "d¹ : d¹ | r¹ : —.r¹",
-          "displayRaw": "d¹ : d¹ | r¹ : —.r¹",
+          "raw": "r¹ : -.r¹ | m¹ : r¹",
+          "displayRaw": "r¹ : -.r¹ | m¹ : r¹",
           "notes": [
             {
               "solfa": "d¹",
@@ -2811,8 +2811,8 @@
           ]
         },
         "bass": {
-          "raw": "l : l | t : —.t",
-          "displayRaw": "l : l | t : —.t",
+          "raw": "t : -.t | d' : t",
+          "displayRaw": "t : -.t | d' : t",
           "notes": [
             {
               "solfa": "l",
@@ -2875,8 +2875,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "s : s | d¹ : —",
-          "displayRaw": "s : s | d¹ : —",
+          "raw": "d' : - | - : r'",
+          "displayRaw": "d' : - | - : r'",
           "notes": [
             {
               "solfa": "s",
@@ -2918,8 +2918,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "m : s | s : —",
-          "displayRaw": "m : s | s : —",
+          "raw": "s : - | fi : —",
+          "displayRaw": "s : - | fi : —",
           "notes": [
             {
               "solfa": "m",
@@ -2961,8 +2961,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "m¹ : r¹ | d¹ : —",
-          "displayRaw": "m¹ : r¹ | d¹ : —",
+          "raw": "d¹ : - | - : d¹",
+          "displayRaw": "d¹ : - | - : d¹",
           "notes": [
             {
               "solfa": "m¹",
@@ -3004,8 +3004,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "d : t | l : —",
-          "displayRaw": "d : t | l : —",
+          "raw": "l : - | - : l",
+          "displayRaw": "l : - | - : l",
           "notes": [
             {
               "solfa": "d",
@@ -3053,8 +3053,8 @@
       "system": 3,
       "voices": {
         "soprano": {
-          "raw": "r¹ : — | s : —",
-          "displayRaw": "r¹ : — | s : —",
+          "raw": "r¹ : — | - : —",
+          "displayRaw": "r¹ : — | - : —",
           "notes": [
             {
               "solfa": "r¹",
@@ -3084,8 +3084,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : —",
+          "displayRaw": "s : — | - : —",
           "notes": [
             {
               "solfa": "s",
@@ -3115,8 +3115,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "t : — | r¹ : —.d¹",
-          "displayRaw": "t : — | r¹ : —.d¹",
+          "raw": "t : — | - : —",
+          "displayRaw": "t : — | - : —",
           "notes": [
             {
               "solfa": "t",
@@ -3161,8 +3161,8 @@
           ]
         },
         "bass": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : —",
+          "displayRaw": "s : — | - : —",
           "notes": [
             {
               "solfa": "s",
@@ -3198,8 +3198,8 @@
       "system": 4,
       "voices": {
         "soprano": {
-          "raw": "s : s | s : —",
-          "displayRaw": "s : s | s : —",
+          "raw": "s : - | s : s",
+          "displayRaw": "s : - | s : s",
           "notes": [
             {
               "solfa": "s",
@@ -3241,8 +3241,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : s | s : —",
-          "displayRaw": "s : s | s : —",
+          "raw": "s : - | s : s",
+          "displayRaw": "s : - | s : s",
           "notes": [
             {
               "solfa": "s",
@@ -3284,8 +3284,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "t : — | m¹ : —.r¹",
-          "displayRaw": "t : — | m¹ : —.r¹",
+          "raw": "  :  |  :   ",
+          "displayRaw": "  :  |  :   ",
           "notes": [
             {
               "solfa": "t",
@@ -3330,8 +3330,8 @@
           ]
         },
         "bass": {
-          "raw": "f : —.m | r : —",
-          "displayRaw": "f : —.m | r : —",
+          "raw": "  :  |  :   ",
+          "displayRaw": "  :  |  :   ",
           "notes": [
             {
               "solfa": "f",
@@ -3382,8 +3382,8 @@
       "system": 4,
       "voices": {
         "soprano": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : —",
+          "displayRaw": "s : — | - : —",
           "notes": [
             {
               "solfa": "s",
@@ -3413,8 +3413,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : —",
+          "displayRaw": "s : — | - : —",
           "notes": [
             {
               "solfa": "s",
@@ -3444,8 +3444,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "d¹ : — | d¹ : —",
-          "displayRaw": "d¹ : — | d¹ : —",
+          "raw": "r' : —.d' | t : -",
+          "displayRaw": "r' : —.d' | t : -",
           "notes": [
             {
               "solfa": "d¹",
@@ -3475,8 +3475,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "f : —.m | r : —",
+          "displayRaw": "f : —.m | r : —",
           "notes": [
             {
               "solfa": "s",
@@ -3512,8 +3512,8 @@
       "system": 4,
       "voices": {
         "soprano": {
-          "raw": "s : s | s : —",
-          "displayRaw": "s : s | s : —",
+          "raw": "s : - | s : s",
+          "displayRaw": "s : - | s : s",
           "notes": [
             {
               "solfa": "s",
@@ -3555,8 +3555,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : s | s : —",
-          "displayRaw": "s : s | s : —",
+          "raw": "s : - | s : s",
+          "displayRaw": "s : - | s : s",
           "notes": [
             {
               "solfa": "s",
@@ -3598,8 +3598,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "d¹ : — | d¹ : —",
-          "displayRaw": "d¹ : — | d¹ : —",
+          "raw": "  :  |  :  ",
+          "displayRaw": "  :  |  :  ",
           "notes": [
             {
               "solfa": "d¹",
@@ -3629,8 +3629,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "s : —.f | m : —",
-          "displayRaw": "s : —.f | m : —",
+          "raw": "  :  |  :  ",
+          "displayRaw": "  :  |  :  ",
           "notes": [
             {
               "solfa": "s",
@@ -3681,8 +3681,8 @@
       "system": 4,
       "voices": {
         "soprano": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : s",
+          "displayRaw": "s : — | - : s",
           "notes": [
             {
               "solfa": "s",
@@ -3712,8 +3712,8 @@
           "rhythmVerified": false
         },
         "alto": {
-          "raw": "s : — | s : —",
-          "displayRaw": "s : — | s : —",
+          "raw": "s : — | - : f",
+          "displayRaw": "s : — | - : f",
           "notes": [
             {
               "solfa": "s",
@@ -3743,8 +3743,8 @@
           "rhythmVerified": false
         },
         "tenor": {
-          "raw": "d¹ : — | t : —",
-          "displayRaw": "d¹ : — | t : —",
+          "raw": "m¹ : —.r¹| d¹ : t",
+          "displayRaw": "m¹ : —.r¹| d¹ : t",
           "notes": [
             {
               "solfa": "d¹",
@@ -3774,8 +3774,8 @@
           "rhythmVerified": false
         },
         "bass": {
-          "raw": "d : — | r : —",
-          "displayRaw": "d : — | r : —",
+          "raw": "s : —.f | m : r",
+          "displayRaw": "s : —.f | m : r",
           "notes": [
             {
               "solfa": "d",
@@ -4215,8 +4215,8 @@
       "system": 5,
       "voices": {
         "soprano": {
-          "raw": "ri : — | t : t",
-          "displayRaw": "ri : — | t : t",
+          "raw": "r' : — | t : t",
+          "displayRaw": "r' : — | t : t",
           "notes": [
             {
               "solfa": "ri",
