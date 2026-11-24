@@ -4691,8 +4691,8 @@
       "meter": "6/8",
       "voices": {
         "soprano": {
-          "raw": "r.m :r",
-          "displayRaw": "r.m :r",
+          "raw": "r :m :r",
+          "displayRaw": "r :m :r",
           "notes": [
             {
               "solfa": "r",
